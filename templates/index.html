@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Туристичне агентство</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Ласкаво просимо до нашого туристичного агентства!</h1>
+        <p>Відкрийте для себе світ разом з нами!</p>
+        <a href="{{ url_for('tours') }}" class="button">Переглянути тури</a>
+    </header>
+</body>
+</html>
